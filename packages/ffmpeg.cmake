@@ -34,6 +34,7 @@ ExternalProject_Add(ffmpeg
         libopenmpt
         libjxl
         shaderc
+        vulkan
         libplacebo
         libzvbi
         libaribcaption
@@ -101,6 +102,7 @@ ExternalProject_Add(ffmpeg
         --enable-libjxl
         --enable-libplacebo
         --enable-libshaderc
+        --enable-vulkan
         --enable-libzvbi
         --enable-libaribcaption
         ${ffmpeg_cuda}
